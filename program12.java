@@ -20,9 +20,9 @@ public class Main {
         System.out.println("4)");
         ac1.foo();
         System.out.println("5)");
-        ac1.foo();
+        ac2.foo();
         System.out.println("6)");
-        ac1.foo();
+        ac3.foo();
         System.out.println("7)");
         d1.foo();
         System.out.println("8)");
@@ -46,7 +46,7 @@ abstract class AbstractC implements C {
     }
     
     public void bar(){
-        System.out.println("AbstractI::foo");
+        System.out.println("AbstractI::bar");
     }
 }
 
